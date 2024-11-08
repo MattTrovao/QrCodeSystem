@@ -60,7 +60,7 @@ function onDetect(detectedCodes) {
         <b>{{ result }}</b>
       </p>
 
-      <button>
+      <button @click="result=''">
         <svg
           width="20"
           height="20"
@@ -89,12 +89,12 @@ function onDetect(detectedCodes) {
   padding: 1.5rem;
   border-radius: 16px;
   text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 50px;
+  gap: 1rem;
+  align-items: center;
 
   button {
-    position: absolute;
-    top: 50%;
-    right: 1rem;
-    transform: translateY(-50%);
     border: 0;
     border-radius: inherit;
     background: #4a00b9;
