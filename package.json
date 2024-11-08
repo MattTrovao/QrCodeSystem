@@ -1,0 +1,20 @@
+{
+  "name": "qrcodesystem",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "sass": "^1.80.6",
+    "vue": "^3.5.12",
+    "vue-qrcode-reader": "^5.5.11"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.4",
+    "vite": "^5.4.10"
+  }
+}

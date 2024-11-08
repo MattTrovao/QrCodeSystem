@@ -1,0 +1,1 @@
+Código para retornar o resultado de um QrCode usando a biblioteca [Vue Qrcode Reader](https://gruhn.github.io/vue-qrcode-reader/), funciona apenas em dispositivos moveis, caso o usuario tente utilizar em dispositivos desktop ele retorna uma mensagem de erro
